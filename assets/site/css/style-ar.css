@@ -1,0 +1,99 @@
+
+
+/* General
+==============================*/
+*{
+    font-family: 'Droid Arabic Kufi', sans-serif;
+}
+body{
+    font-family: 'Droid Arabic Kufi', sans-serif !important;
+    
+}
+
+h2{
+    line-height: 70px;
+}
+
+
+
+header.header .left-btn > .btn{
+    font-family: 'Droid Arabic Kufi', sans-serif
+}
+
+/* Index
+=======================*/
+.home-page .form .form-group{
+    float: right;
+}
+.home-page .form .submit-btn{
+    margin-right: 0;
+    margin-left: auto;
+}
+header.header a img{
+    float: right;
+}
+header.header .left-btn{
+    float: left;
+}
+/* Foorms
+===================*/
+.form .form-group input,
+.form .form-group select{
+    padding: 10px 5px 0px 0px;
+    margin-right: auto;
+}
+.get-start .form .form-group,
+.partner .form .form-group{
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+footer.footer .form .form-group{
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+/* Footer
+===================*/
+footer.footer img{
+    float: right;
+}
+footer.footer .form{
+    padding-right: 207px;
+    padding-left: 0;
+}
+footer.footer .form .submit-btn{
+    float: left;
+    margin: 35px 35px 10px 35px;
+}
+@media (max-width: 1200px){
+    footer.footer .form .submit-btn {
+        margin-left: 0;
+        margin-right: auto;
+    }
+}
+@media (max-width:500px){
+    
+    header.header-1 a img{
+        float: none;
+        margin: auto;
+    }
+    header.header-1 .left-btn{
+        float: none;
+        margin: auto;
+    }
+    
+    .home-page .form .form-group{
+        float: none;
+        width: 100%;
+        overflow: hidden;
+    }
+    .get-start .form .form-group,
+    .partner .form .form-group {
+        margin-right: 0;
+        margin-left: auto;
+        }
+    footer.footer .form{
+        padding-right: 0px;
+    }
+}

@@ -1,0 +1,444 @@
+/* Fants
+==============================*/
+@font-face {
+    font-family: 'Avenir-Next-LT-Pro-Bold';
+    src: url(../vendor/fonts/Avenir-Next-LT-Pro-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'AvenirNextLTPro-BoldCn';
+    src: url(../vendor/fonts/AvenirNextLTPro-BoldCn.otf);
+}
+
+@font-face {
+    font-family: 'Avenir-Next-LT-Pro-Demi';
+    src: url(../vendor/fonts/Avenir-Next-LT-Pro-Demi.ttf);
+}
+
+@font-face {
+    font-family: 'AvenirNextLTPro-Regular';
+    src: url(../vendor/fonts/AvenirNextLTPro-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Myriad-Pro';
+    src: url(../vendor/fonts/Myriad-Pro.ttf);
+}
+
+/* General
+==============================*/
+*{
+    font-family: 'Myriad-Pro';
+}
+*:focus{
+    box-shadow: none;
+    outline: none!important;
+}
+body{
+    font-family: 'Tahoma';
+    font-weight: normal;
+    background: #f6f6f6;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+
+/* Links
+==============================*/
+a{ 
+    text-decoration: none;
+    font-size: 14px;
+    -webkit-transition: all 0.3s ease-out;
+       -moz-transition: all 0.3s ease-out;
+         -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+}
+a:hover,
+a:focus{
+    text-decoration: none;
+}
+/* Lists
+==============================*/
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Heading
+==============================*/
+h3{
+    margin: 35px 0 15px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+h3 span{
+    color: #d4a728;
+}
+h2{
+    font-size: 52px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Social-Lists
+==============================*/
+.social > li{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    background: #333333; 
+    margin-right: 10px;
+    text-align: center;
+    -webkit-transition: all 0.5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+}
+.social > li:hover{
+    background: #f8da61;
+}
+.social > li > a{
+    color: #fff;
+    font-size: 16px;
+}
+.social > li:hover a{
+    color: #333333;
+}
+/* Form
+==============================*/
+.form-group.form-group-inline{
+    display: inline-block;
+    width: 46%;
+    margin-right: 10px;
+}
+
+.form .form-group input,
+.form .form-group select{
+    width: 50%;
+    padding: 10px 10px 0px 0;
+    border: none;
+    border-bottom: 1px solid #333333;
+    background-color: transparent;
+    margin: 0 10px 0 0;
+}
+.form .submit-btn{
+    border: none;
+    margin: 20px 50px;
+    padding: 10px 15px;
+    background: #f8da61;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Avenir-Next-LT-Pro-Bold';
+    transition: all .3s ease-in-out;
+}
+.form .submit-btn:hover{
+    color: #fff;
+    background-color: #d4a728;
+}
+/* Header
+==============================*/
+header.header {
+    background: #f8da61;
+}
+header.header a img{
+    float: left;
+}
+header.header .left-btn {
+    float: right;
+    margin-top: 25px;
+}
+header.header .left-btn > .btn{
+    color: #333333;
+    font-weight: bolder;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    font-family: 'Avenir-Next-LT-Pro-Bold';
+}
+header.header .left-btn > .btn:hover,
+header.header .left-btn > .btn:focus{
+    box-shadow: none;
+    color: #f8da61;
+    background-color: #333333;
+}
+header.header .left-btn > .active-btn{
+    color: #fff;
+    background: #333333;
+}
+header.header .left-btn > .active-btn:hover,
+header.header .left-btn > .active-btn:focus{
+    color: #f8da61;
+}
+@media(max-width:625px){
+    header.header a img{
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    header.header .left-btn{
+        float: none;
+        display: block;
+        margin: 5px auto 25px auto;
+        text-align: center;
+    }
+}
+@media(max-width:375px){
+    header.header .left-btn > .btn{
+        width: 80%;
+        margin-bottom: 5px;
+    }
+}
+/* Home-Header
+==============================*/
+.home{
+    background: url(../img/background.png);
+}
+header.header-1{
+    background-color: transparent;
+}
+header.header-1 a img {
+    float: left;
+    margin-left: 514px;
+    margin-top: 40px;
+}
+header.header-1 .left-btn{
+    margin-top: 65px;
+}
+.home-page .form{
+    margin-top: 100px;
+}
+.home-page .form h2{
+    margin-bottom: 30px;
+}
+.home-page .form .form-group{
+    float: left;
+}
+.home-page .form .form-group input,
+.home-page .form .form-group select{
+    width: auto;
+    padding-bottom: 3px;
+    font-size: 18px;
+    vertical-align: top;
+}
+.code-number{
+    width: 55px!important;
+}
+.home-page .form .form-group label{
+    font-weight: normal;
+    vertical-align: bottom;
+    font-size: 24px;
+    line-height: 48px;
+    font-family: 'AvenirNextLTPro-Regular';
+}
+.home-page .form .submit-btn{
+    background: #333333;
+    color: #fff;
+    margin-left: 0;
+}
+.home-page .form .submit-btn:hover{
+    color: #f8da61;
+}
+.home-page .left-img {
+    margin-top: 45px;
+    max-width: 400px;
+    margin-left: 30px;
+}
+
+/* Get-Start
+==============================*/
+.get-start,
+.partner{
+    width: 60%;
+    margin: 50px auto;
+}
+.get-start .form .form-group,
+.partner .form .form-group{
+    margin-left: 50px;
+}
+.get-start .form .form-group label,
+.partner .form .form-group label{
+    width: 150px;
+}
+
+/* Career
+==============================*/
+.career-page{
+    background: url(../img/career-background.png) no-repeat top center;
+}
+.career-page .career{
+    width: 90%;
+    margin: 120px auto;
+}
+.career-page .career .info{
+    padding-left: 214px;
+}
+.career-page .career img{
+    float: left;
+    margin: -35px 0 0 0;
+}
+.career-page.career .info{
+    margin-top: 100px;
+}
+.career-page .career .info h3{
+    margin: 50px 0 50px 0px;
+}
+.career-page .career .info p{
+    padding-bottom: 50px;
+    font-size: 24px;
+    font-family: 'AvenirNextLTPro-Regular';
+}
+.career-page .career .info p a{
+    font-size: 24px;
+    text-decoration: underline;
+    color: #333333
+}
+@media(max-width:991px){
+    .career-page .career{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+@media(max-width:650px){
+    .career-page .career img{
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .career-page .career .info{
+        padding-left: 0;
+    }
+    .career-page .career .info h2{
+        font-size: 30px;
+    }
+}
+/* Footer
+==============================*/
+footer.footer {
+    background: #dbe0e3;
+}
+footer.footer img{
+    float: left;
+}
+footer.footer .form{
+    padding-left: 207px;
+}
+footer.footer .form .form-group {
+    display: inline-block;
+    width: 45%;
+    margin-right: 10px;
+}
+footer.footer .form .form-group label{
+    display: none;
+}
+footer.footer .form .form-group input{
+    width: 95%;
+    border-bottom: 3px solid #333333;
+}
+footer.footer .form .submit-btn{
+    float: right;
+    margin: 35px 35px 10px;
+}
+footer.footer .site-map,
+footer.footer .social{
+    margin-top: 40px;
+    overflow: hidden;
+}
+footer.footer .site-map > li{
+    padding-top: 5px;
+}
+footer.footer .site-map > li > a{
+    color: #333333;
+}
+footer.footer .site-map > li > a:hover{
+    color: #d4a728;
+}
+footer.footer .play-store{
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+footer.footer .play-store:hover{
+    color: #d4a728;
+}
+footer.footer .copy-right{
+    padding: 20px 0;
+}
+@media(max-width:1200px){
+    footer.footer .form .submit-btn{
+        margin-right: 0;
+    }
+}
+/* Responsive-style
+=======================*/
+@media (max-width:1200px){
+    footer.footer .form .form-group{
+        display: block;
+        width: 100%;
+    }
+    footer.footer .form .form-group input{
+        width: 100%;
+    }
+    footer.footer .site-map,
+    footer.footer .social{
+        padding: 0;
+    }
+}
+
+@media all and (max-width:1199px){
+    header.header-1 a img{
+        margin-left: 300px;
+    }
+}
+
+@media all and (max-width:991px){
+    .get-start,
+    .partner {
+        width: 100%;
+    }
+    header.header-1 a img{
+        margin-left: 0;
+    }
+    .home-page .left-img{
+        display: none;
+    }
+    footer.footer .social{
+        text-align: center;
+    }
+}
+
+@media all and (max-width:767px){
+    footer.footer .site-map,
+    footer.footer .copy-right{
+        text-align: center;
+        text-align: center;
+    }
+}
+
+
+
+
+@media all and (max-width:500px){
+    
+    .get-start .form .form-group,
+    .partner .form .form-group {
+        margin-left: 0;
+    }
+    .form .form-group input{
+        width: 100%;
+        padding-top: 0;
+    }
+    .form .submit-btn{
+        margin-left: 0;
+    }
+    footer.footer img{
+        display: none;
+    }
+    footer.footer .form{
+        padding-left: 0;
+    }
+}
